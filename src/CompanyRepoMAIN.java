@@ -25,7 +25,9 @@ public class CompanyRepoMAIN {
         companyRepo.add(c2);
         companyRepo.add(c3);
 
-        companyRepo.displayAll();
+        // companyRepo.displayAll();
 
+        Company company = companyRepo.search(5213788049L);
+        company.display();
     }
 }
